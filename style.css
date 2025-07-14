@@ -1,0 +1,85 @@
+/* ========== Base ========== */
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000; /* true black */
+  color: #ffd700; /* gold */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+/* ========== Headings ========== */
+h1, h2, h3 {
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+/* ========== Links ========== */
+a {
+  color: #add8e6; /* light blue */
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #8a2be2; /* blueviolet */
+  text-decoration: underline;
+}
+
+/* ========== Tables ========== */
+table, th, td, caption {
+  border: 1px solid #666;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  color: #eee;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* ========== Form ========== */
+input, select, textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #111;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* ========== Images ========== */
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+/* ========== Layout Utility ========== */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #333;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}

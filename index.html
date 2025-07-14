@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FullStack</title>
+
+  <!-- Favicon & stylesheet -->
+  <link rel="icon" href="html5.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <!-- ===================== Header ===================== -->
+  <header>
+    <h1>FullStack</h1>
+
+    <h2 id="primary-navigation">Primary Navigation</h2>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#fullstack">FullStack</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#activity">Table</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== Section: FullStack Overview ===================== -->
+    <section id="fullstack">
+      <p>Skills needed</p>
+      <article>
+        <dl>
+          <dt>HTML</dt>
+          <dd>The language of webpages</dd>
+          <dt>CSS</dt>
+          <dd>Provides styling</dd>
+          <dt>JavaScript</dt>
+          <dd>Adds dynamics to the page</dd>
+        </dl>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- ===================== Section: Skills ===================== -->
+    <section id="skills">
+      <article>
+        <h2>HTML</h2>
+
+        <figure>
+          <img src="html5.png" alt="HTML5 logo" title="HTML5 logo" width="200" height="200" loading="lazy">
+          <figcaption>Logo of HTML5</figcaption>
+        </figure>
+
+        <figure>
+          <figcaption>Example Tag</figcaption>
+          <code>&lt;h1&gt;Hello&lt;/h1&gt;</code>
+        </figure>
+
+        <p>
+          HTML is the first skill we need to master to move to
+          <address><abbr title="United Arab Emirates">UAE</abbr></address> and settle there.
+        </p>
+
+        <aside>
+          <details>
+            <summary>Guess the <mark>number of study hours</mark> I commit</summary>
+            <p>Approximately <time datetime="PT6H">6 hours</time> from <time datetime="08:00">8 am</time> to <time datetime="14:00">2 pm</time></p>
+          </details>
+        </aside>
+
+        <h3>Sources</h3>
+        <p><strong><em>&lt; FreeCodeCamp, The Odin Project &gt;</em></strong></p>
+
+        <h2>CSS</h2>
+        <p>CSS is the next skill we need to learn. This is where I was stuck.</p>
+        <p><a href="https://google.com" target="_blank" rel="noopener">Google</a></p>
+        <p><a href="index2.html">Dummy</a></p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- ===================== Section: Activity Table ===================== -->
+    <section id="activity">
+      <h2>Daily Activity</h2>
+      <table>
+        <caption>Activity</caption>
+        <thead>
+          <tr>
+            <th scope="col">Period</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td><time datetime="08:00">8 am</time> – <time datetime="11:00">11 am</time></td>
+            <td>Write code</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td><time datetime="11:00">11 am</time> – <time datetime="12:00">12 pm</time></td>
+            <td>Eat lunch</td>
+          </tr>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td><time datetime="12:00">12 pm</time> – <time datetime="14:00">2 pm</time></td>
+            <td>Study</td>
+          </tr>
+          <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other time</td>
+            <td>Free time</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td>Sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total scheduled hours</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- ===================== Section: Contact ===================== -->
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <p>
+          <label for="firstName">First name:</label>
+          <input type="text" name="firstName" id="firstName" placeholder="First name" autocomplete="on" required>
+        </p>
+
+        <p>
+          <label for="lastName">Last name:</label>
+          <input type="text" name="lastName" id="lastName" placeholder="Last name" autocomplete="on" required>
+        </p>
+
+        <p>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" placeholder="Secret" required>
+        </p>
+
+        <p>
+          <label for="phone">Phone:</label>
+          <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="\d{10}" required>
+        </p>
+
+        <p>
+          <label for="coffee">Favourite coffee:</label>
+          <select name="coffee" id="coffee">
+            <optgroup label="Coffees">
+              <option value="regular" selected>Regular coffee</option>
+              <option value="iced">Iced coffee</option>
+              <option value="latte">Latte</option>
+            </optgroup>
+            <option value="other">Other</option>
+          </select>
+        </p>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===================== Footer ===================== -->
+  <footer>
+    <hr>
+    <p>&copy; 2025 · <a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
